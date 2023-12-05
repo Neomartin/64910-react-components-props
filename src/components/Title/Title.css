@@ -1,0 +1,15 @@
+.main-title {
+    color: dodgerblue;
+    padding: .25rem 1rem;
+    border-bottom: 3px solid crimson;
+    background-color: #181818;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.main-title i[class^="fa-"] {
+    font-size: 1.5rem;
+    color: #adadad;
+}

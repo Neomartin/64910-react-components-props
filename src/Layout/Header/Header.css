@@ -1,0 +1,22 @@
+.main-header {
+    background-color: royalblue;
+    color: white;
+
+    .nav-list {
+        display: flex;
+        gap: .5rem;
+
+        .nav-item {
+            list-style: none;
+            padding: .5rem;
+
+            >a {
+                color: white;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}
